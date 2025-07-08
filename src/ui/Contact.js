@@ -75,7 +75,7 @@ const Contact = () => {
     if (Object.keys(errors).length === 0 && submitting) {
       finishSubmit();
       }
-  }, [errors]);
+  }, [errors, finishSubmit, submitting]);
 
   return (
     <>
