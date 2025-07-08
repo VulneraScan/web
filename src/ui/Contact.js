@@ -129,25 +129,7 @@ const Contact = () => {
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="250">
                 <form ref={form} className="php-email-form" onSubmit={handleSubmit}>
                   <div className="row">
-                    <div className="col-md-6 form-group">
-                      <input  ref={inputRef}
-                        onChange={handleChange}
-                        value={username}
-                        type="text"
-                        name="username"
-                        className="form-control"
-                        placeholder="Your Name"
-                        style={{
-                          border: errors.username ? "1px solid red" : null,
-                        }}
-                      />
-                      {errors.username ? (
-                        <small className="error">
-                          Username should be at least 3 characters long
-                        </small>
-                      ) : null}
-                    </div>
-                    <div className="col-md-6 form-group mt-3 mt-md-0">
+                    <div className="col-md-12 form-group">
                       <input ref={inputRef}
                         onChange={handleChange}
                         value={email}
