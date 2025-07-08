@@ -14,7 +14,6 @@ const Contact = () => {
 
 
   const [inputFields, setInputFields] = useState({
-    username: "",
     email: "",
     subject: "",
     message: "",
@@ -23,15 +22,12 @@ const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
 
   // destructure all object values
-  const { username, email, subject, message } = inputFields;
+  const { email, subject, message } = inputFields;
 
   // check the form fileds lenth
   const validateValues = (inputValues) => {
     let errors = {};
 
-    if (inputValues.username.length < 2) {
-      errors.username = "userName is too short";
-    }
     if (inputValues.email.length < 5) {
       errors.email = "Email is too short";
     }
@@ -39,7 +35,7 @@ const Contact = () => {
       errors.subject = "Subject is too short";
     }
     if (inputValues.message.length < 10) {
-      errors.message = "Subject is too short";
+      errors.message = "Meesage is too short";
     }
 
     return errors;
@@ -64,7 +60,7 @@ const Contact = () => {
           console.log(error.text);
       });
       //nputRef.current.value = ''; 
-      setInputFields({username: "",
+      setInputFields({
       email: "",
       subject: "",
       message: ""})
