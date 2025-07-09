@@ -18,6 +18,8 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: # Add this environment configuration
+      name: github-pages # The name of the environment for GitHub Pages
 
     steps:
       - name: Checkout code
