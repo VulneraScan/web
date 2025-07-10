@@ -12,9 +12,9 @@ const Revenue = () => {
             <div className="row">
               <div className="col-md-7">
                 <h4>Drive revenue and optimise your Business</h4>
-                <p>We have fortified our services with almost two decades of being a VAS major, with our unified experience, coupled with latest product line that interests consumers with their diversified needs of meaningful and engaging content.</p>
-                <p> Our abreast technology trends and unabating innovation has always enhanced the business impact for our clients resulting in happy faces seeing the revenue graph.</p>
-                <p> We are always focused on unfolding new revenue streams for our operators with our innovative service line and as well meeting clients specific requirements. </p>
+                <p>With 2 years of dedicated service in cybersecurity, Vulnerascan has established itself as a trusted partner in delivering cutting-edge protection and training solutions. Our unified expertise spans penetration testing, security audits, risk assessments, and professional upskilling—designed to meet the evolving security needs of modern businesses.</p>
+                <p> We stay aligned with emerging threat landscapes and latest security technologies, ensuring measurable business impact and peace of mind for our clients. Our commitment to continuous innovation has helped organizations strengthen digital resilience and protect critical assets.</p>
+                <p> At Vulnerascan, we don’t just secure systems—we unlock growth by identifying vulnerabilities, enabling compliance, and building a culture of cyber-awareness through impactful learning and tailored services. </p>
                 <Link to="/about" className="btn-get-started">Read More</Link>
               </div>
               <div className="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">

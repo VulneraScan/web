@@ -22,13 +22,12 @@ const Carousel = () => {
           >
             <div className="col-lg-7 col-md-12 col-12">
               <h2 data-aos="fade-up">
-                Global Leader In Telecom VAS, Mobile Learning, Entertainment &
-                Sports
+                Leading Cybersecurity Training & Service Platform
               </h2>
               <blockquote data-aos="fade-up" data-aos-delay="100">
                 <p>
-                  We are a global leader in Telcom VAS, offer Services across
-                  Educational Content, Entertainment Content, Games and sports
+                  Vulnerascan is a trusted platform offering cybersecurity services and training—including penetration testing, 
+                  risk assessment, and secure digital practices for both individuals and organizations.
                 </p>
               </blockquote>
               <div className="d-flex align-items-center">

@@ -1,8 +1,8 @@
 import React from "react";
-import education from "../img/education-bg.png";
-import entertainment from "../img/entertainment-bg.png";
-import games from "../img/games-bg.png";
-import sports from "../img/sports-bg.png";
+import education from "../img/Cyber-security-Learning.png";
+import entertainment from "../img/Penetration-testing.png";
+import games from "../img/Risk-assessment.png";
+import sports from "../img/Security-Audits.png";
 
 import InnerHeaderBanner from "../components/InnerHeaderBanner";
 import InnerHeader from "../components/InnerHeader";
@@ -20,16 +20,13 @@ const Service = () => {
           <div className="container" data-aos="fade-up">
             <div className="section-header">
               <h2>
-                We are a
-                <span style={{ color: "#155bd5" }}> GLOBAL LEADER</span> in
-                Telcom VAS, offer Services across Educational Content,
-                Entertainment Content, Games and sports
+                <span style={{ color: "#155bd5" }}> GLOBAL LEADER</span> in Cybersecurity, offering Training, Testing, and Security Solutions.
               </h2>
             </div>
 
             <div
               className="row gy-5 pt-5 align-items-center"
-              id="Educational-content"
+              id="Cyber Security Learning"
             >
               <div
                 className="col-lg-5 col-md-6 service-item"
@@ -40,7 +37,7 @@ const Service = () => {
                   src={education}
                   className="img-fluid"
                   alt=""
-                  title="Educational-content"
+                  title="Cyber Security Learning"
                 />
               </div>
 
@@ -53,32 +50,24 @@ const Service = () => {
                   <i className="bi bi-book" style={{ color: "#f57813" }}></i>
                 </div>
                 <div>
-                  <h4 className="title"> Educational Content </h4>
+                  <h4 className="title"> Cyber Security Learning </h4>
                   <p className="description">
                     
-                    Education is the key to unlocking the golden door of
-                    freedom. Educational content are crucial as it is an
-                    investment in human capital that yields tremendous benefits
-                    to personal, social and economic development.
+                    Learn cybersecurity from the ground up — practical skills, 
+                    expert guidance, and real-world training in one platform.
                   </p>
                   <p className="description">
-                    Our Educational Content spans K-12, Engineering across all
-                    disciplines, Soft skills, Skill Development, Vocational,
-                    Applied Sciences, Humanities .. etc.
+                    Vulnerascan offers practical, career-focused cybersecurity training covering ethical hacking, network security, penetration testing, and compliance standards like ISO and NIST. Our courses are suitable for beginners to professionals.
                   </p>
                   <p className="description">
                     
-                    we have Animated tutorials, offers practice exercises,
-                    Assessments, LIVE Tutor
+                    We combine animated lessons, hands-on labs, assessments, and live expert sessions to ensure learners gain both knowledge and real-world skills.
                   </p>
                   <p className="description">
                     
                     <span className="fw-bold">
-                      K-12 Covers Maths, EVS, English, Physics, Chemistry,
-                      Biology, Skill Development covers Automobile, Civil,
-                      Electrical, Tailoring, Mobile Repair
+                      Our goal is to build job-ready cybersecurity professionals equipped to handle modern digital threats with confidence and competence.
                     </span>
-                    and more..
                   </p>
                 </div>
               </div>
@@ -86,7 +75,7 @@ const Service = () => {
           </div>
         </section>
 
-        <section className="services-list light-bg" id="Entertainment-content">
+        <section className="services-list light-bg" id="Penetration Testing">
           <div className="container" data-aos="fade-up">
             <div className="row gy-5 align-items-center ">
               <div
@@ -96,26 +85,20 @@ const Service = () => {
               >
                 <div className="icon flex-shrink-0">
                   <i
-                    className="bi bi-collection-play"
+                    className="bi bi-shield-lock"
                     style={{ color: "#15a04a" }}
                   ></i>
                 </div>
                 <div>
-                  <h4 className="title"> Entertainment Content </h4>
+                  <h4 className="title"> Penetration Testing </h4>
                   <p className="description">
-                    Our Entertainment content can keep the consumer engaged for
-                    hours if that’s what one is interested in. We have an
-                    impressive array of
-                    <span className="fw-bold">
-                      
-                      Content on Movies, Fashion, on Demand Videos
-                    </span>
-                    and many more...
-                  </p>
+                    Our penetration testing service helps organizations proactively
+                    detect, analyze, and remediate security flaws in their systems, 
+                    networks, and applications.
+                   </p>
                   <p className="description">
                     
-                    So every time a consumer needs enthralling content, ours is
-                    the way to go.
+                    So every time an organization needs to uncover hidden vulnerabilities, our penetration testing is the way to go.
                   </p>
                 </div>
               </div>
@@ -132,7 +115,7 @@ const Service = () => {
         </section>
 
         <section className="services-list ">
-          <div className="container" id="Games">
+          <div className="container" id="Risk assessment">
             <div className="row gy-5  align-items-center">
               <div
                 className="col-lg-5 col-md-6 service-item "
@@ -149,21 +132,18 @@ const Service = () => {
               >
                 <div className="icon flex-shrink-0">
                   <i
-                    className="bi bi-controller"
+                    className="bi bi-exclamation-triangle"
                     style={{ color: "#f5cf13" }}
                   ></i>
                 </div>
                 <div>
-                  <h4 className="title"> Games </h4>
+                  <h4 className="title"> Risk assessment </h4>
                   <p className="description">
-                    Get access to a bunch of games ranging from Action,
-                    Adventure, Arcade, Board, Cards, Casino ... and many to play
-                    on your device.
+                    Comprehensive risk assessments to identify vulnerabilities, 
+                    assess impact, and guide informed security decisions.
                   </p>
                   <p className="description">
-                    If obvious choice for people whose idea of entertainment
-                    involves gaming as one would with a console or a computer,
-                    then their search stops here.
+                    If you're serious about understanding and minimizing digital threats, then your search for effective risk assessment ends here.
                   </p>
                 </div>
               </div>
@@ -171,7 +151,7 @@ const Service = () => {
           </div>
         </section>
 
-        <section className="services-list light-bg" id="Sports">
+        <section className="services-list light-bg" id="Security Audits">
           <div className="container">
             <div className="row gy-5 align-items-center">
               <div
@@ -181,19 +161,25 @@ const Service = () => {
               >
                 <div className="icon flex-shrink-0">
                   <i
-                    className="bi bi-universal-access-circle"
+                    className="bi bi-clipboard-check"
                     style={{ color: "#1335f5" }}
                   ></i>
                 </div>
                 <div>
-                  <h4 className="title"> Sports </h4>
+                  <h4 className="title"> Security Audits </h4>
                   <p className="description">
-                    Learning a sport is fun and challenging... sports like
-                    football, cricket, Tennis, Badminton, Rugby, volleyball and
-                    many more as such has tutoring videos talks about the
-                    history of the game, rules, knack to learn, skills to
-                    develop, details about the sport... so why to wait, let’s
-                    play the sport...
+                    Our security audit service evaluates your infrastructure, 
+                    policies, and controls to detect gaps and strengthen your overall security posture.                 
+                  </p>
+                  <p className="description">
+                    We analyze both technical and procedural layers of your system to uncover hidden risks, 
+                    compliance issues, and areas for improvement.Our expert team ensures your environment 
+                    aligns with industry standards like ISO, NIST, and GDPR, providing detailed insights 
+                    and practical recommendations.
+                  </p>
+                  <p className="description">
+                    By identifying weaknesses before they can be exploited, we help organizations 
+                    build a resilient, secure, and audit-ready digital ecosystem.
                   </p>
                 </div>
               </div>

@@ -2,8 +2,8 @@ import React from 'react'
 import AOS from "aos";
 import '../../node_modules/aos/dist/aos.css'
 import about_img from '../img/about-image.jpg'
-import manag_photo1 from '../img/team/Padmakumar.png';
-import manag_photo2 from '../img/team/Sundaramoorthy.png';
+import manag_photo1 from '../img/team/mdsojib.png';
+import manag_photo2 from '../img/team/rafid.png';
 import InnerHeaderBanner from '../components/InnerHeaderBanner';
 import InnerHeader from '../components/InnerHeader';
 import Footer from '../components/Footer';
@@ -33,10 +33,10 @@ const About = () => {
                   <img src={about_img} className="img-fluid" alt="Helping Clients achieve their Vision" title="Helping Clients achieve their Vision" />
                </div>
                <div className="col-lg-6">
-                  <p> We started Symbiotic Infotech in 2005. When we started our company, we knew we would be working together with our mobile carrier clients to help increase their top-line revenue.</p>
-                  <p> We came up with the name Symbiotic because the definition of a symbiotic relationship is one in which organisms, people, or things exist together in a way that benefits them all. As our stated mission suggest, we exist to benefit our mobile carrier clients by increasing their top line revenue.</p>
-                  <p> Since then, Symbiotic has seen unprecedented growth and is one of the largest and fastest growing VAS companies in India. We have generated multi-million dollars in revenue for our clients and currently service over 20 million customers and growing.</p>
-                  <p> Our determination to help our clients succeed is only one facet of Symbiotic. When we started Symbiotic, we wanted to create a company that not only succeeded financially, we strive to take care of our employees, and to give back to our community. That is why Symbiotic donates a portion of every dollar we earn to make a difference in this world.</p>
+                  <p> We started Vulnerascan in 2022 with a mission to help businesses and individuals strengthen their digital defenses through advanced cybersecurity services and professional training. From day one, we aimed to be more than just a service provider — we set out to become a trusted partner in securing digital growth.</p>
+                  <p> The name Vulnerascan represents our core purpose: identifying and addressing vulnerabilities before they become threats. Over the past two years, we’ve built a platform that delivers real-world solutions including penetration testing, risk assessments, security audits, and hands-on cybersecurity learning programs.</p>
+                  <p> Since launch, we've supported organizations across various sectors, trained hundreds of cybersecurity learners, and consistently adapted to the evolving threat landscape. Our client-first approach and focus on innovation have helped us create meaningful impact in both enterprise environments and learning communities.</p>
+                  <p> At Vulnerascan, we believe growth must be shared. That's why we invest in our team, foster continuous learning, and support community initiatives focused on cyber awareness and education. We’re proud of how far we’ve come — and we’re even more excited about what’s ahead.</p>
                </div>
             </div>
          </div>
@@ -51,7 +51,7 @@ const About = () => {
                         <div className="col-xl-12">
                            <div className="card-body">
                               <h4 className="card-title"> Vision</h4>
-                              <p>To become world's leading telecom company for value added services and create an outstanding value for customers and stake holders.</p>
+                              <p>To become a global leader in cybersecurity solutions, empowering organizations to defend against evolving digital threats and building a safer, more secure digital world for all.</p>
                            </div>
                         </div>
                      </div>
@@ -64,7 +64,7 @@ const About = () => {
                         <div className="col-xl-12">
                            <div className="card-body">
                               <h4 className="card-title"> Mission</h4>
-                              <p>To anticipate the need of telecom consumers and deliver outstanding products those are value for money.</p>
+                              <p>To proactively identify, assess, and neutralize vulnerabilities through innovative cybersecurity tools, expert insights, and client-focused services — delivering robust protection and peace of mind to businesses of all sizes.</p>
                            </div>
                         </div>
                      </div>
@@ -77,7 +77,7 @@ const About = () => {
                         <div className="col-xl-12">
                            <div className="card-body">
                               <h4 className="card-title">Our Values</h4>
-                              <p> Our business is driven by our consumer focus, creativity, resourcefulness, and entrepreneurial spirit. We are an inspired diverse team, we respect and value everyone's contribution.</p>
+                              <p>We are driven by a strong commitment to security, a passion for innovation, unwavering integrity, seamless collaboration, and a dedication to excellence in delivering high-quality, trustworthy cybersecurity solutions.</p>
                            </div>
                         </div>
                      </div>
@@ -92,7 +92,7 @@ const About = () => {
          <div className="container">
             <div className="section-header">
                <h2>Our Team</h2>
-               <p>Leveraging their vast experience within the Telecom value added services industry, Symbiotic's leadership team is dedicated to meet and exceed customer expectations with innovative and cost-effective solutions, industry know-how and unmatched services.</p>
+               <p>Backed by strong expertise in cybersecurity, Vulnerascan’s leadership team is focused on delivering innovative, efficient, and cost-effective solutions. With a deep understanding of digital threats and industry needs, we aim to consistently exceed client expectations through trusted services and strategic insight.</p>
             </div>
             <div className="row member d-flex align-items-center ">
                <div className="col-md-2">
@@ -100,12 +100,22 @@ const About = () => {
                </div>
                <div className="col-md-10">
                   <div className="member-info">
-                     <h4>T.Padmakumar</h4>
-                     <span>Co-Founder & Director</span>
-                     <p>Padma is a visionary Technocrat with 16 Years of experience and has worked with consulting majors & service industries in the field of IT technologies. His specialization includes Networking, Securities, System Architecture, Data base and Enterprise solutions .</p>
+                     <h4>MD SOJIB</h4>
+                     <span>Founder & CEO</span>
+                     <p>MD SOJIB is a visionary Technocrat with 5 years of hands-on experience in the field of Information Technology, specializing in Cybersecurity. He has worked with leading consulting firms and service industries, contributing to a wide range of IT solutions. His core expertise includes Network Security, Ethical Hacking, Security Audits, Risk Assessment, System Architecture, and Enterprise Security Solutions. Sojib is committed to building secure digital infrastructures and continuously evolving with the latest advancements in cybersecurity technologies.</p>
                      <div className="social">
-                     <Link to ="/"><i className="bi bi-twitter"></i></Link>                
-                     <Link to ="/"> <i className="bi bi-linkedin"></i> </Link>
+                     <Link to="https://twitter.com/mdsojibcsr" target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-twitter"></i>
+                    </Link>                
+                    <Link to="https://www.linkedin.com/in/mdsojibcsr" target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-linkedin"></i>
+                    </Link>
+                    <Link to="https://github.com/mdsojibcsr" target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-github"></i>
+                    </Link>
+                <Link to="https://facebook.com/mdsojibcsr" target="_blank" rel="noopener noreferrer">
+                <i className="bi bi-facebook"></i>
+                    </Link>
                      </div>
                   </div>
                </div>
@@ -116,13 +126,13 @@ const About = () => {
                </div>
                <div className="col-md-10">
                   <div className="member-info">
-                     <h4>V.Sundaramoorthy </h4>
-                     <span>Co-Founder & Director</span>
-                     <p>Sundar is a visionary and entrepreneur in his own right. He has worked with IT and Engineering majors before entering the telecom business. He has over 14 years of management experience with IT & Engineering majors and has significant global experience and also an expert in corporate alliance. </p>
-                     <p> Sundar has extensive multi-functional management experience in marketing, sales, business and corporate development and holds a Bachelors degree in  Electrical & Electronic Engineering.</p>
+                     <h4>Rafid Al Haque</h4>
+                     <span>Chief Technology Officer (CTO)</span>
+                     <p>Rafid Al Haque is a cybersecurity researcher and infrastructure specialist currently leading the technical direction at VulneraScan. He has a strong foundation in Linux security, DevSecOps, and source code auditing, which enables him to design scalable and secure systems tailored to modern defense needs. </p>
+                     <p> With a blend of hands-on experience and strategic foresight, Rafid focuses on building tools that address real-world cybersecurity threats. His work empowers defenders by creating practical solutions that stay ahead of evolving attack landscapes.</p>
                      <div className="social">
-                        <Link to ="/"><i className="bi bi-twitter"></i></Link>                
-                        <Link to ="https://www.linkedin.com/in/sundaramoorthy-velayutham-92697aa/"> <i className="bi bi-linkedin" target="_blank"></i> </Link>
+                        <Link to="https://twitter.com/rafidalhaque" target="_blank" rel="noopener noreferrer"> <i className="bi bi-twitter"></i> </Link>
+                        <Link to ="https://www.linkedin.com/in/rafidalhaque/"> <i className="bi bi-linkedin" target="_blank"></i> </Link>
                      </div>
                   </div>
                </div>

@@ -9,8 +9,7 @@ const ServiceList = () => {
           <div className="section-header">
             <h2>What we do? </h2>
             <p>
-              We are a global leader in Telcom VAS, offer Services across
-              Educational Content, Entertainment Content, Games and sports{" "}
+              Vulnerascan is a trusted platform offering cybersecurity services and training—including penetration testing, risk assessment, and secure digital practices for both individuals and organizations.{" "}
             </p>
           </div>
           <div className="row gy-5">
@@ -25,15 +24,13 @@ const ServiceList = () => {
                 </div>
                 <div>
                   <h4 className="title">
-                    <Link to="/ervices" className="stretched-link">
-                      Educational Content{" "}
+                    <Link to="/services" className="stretched-link">
+                      Cyber Security Learning{" "}
                     </Link>
                   </h4>
                   <p className="description">
-                    Education is the key to unlocking the golden door of
-                    freedom. Educational content are crucial as it is an
-                    investment in human capital that yields tremendous benefits
-                    to personal, social and economic development...
+                    Learn cybersecurity from the ground up — practical skills, 
+                    expert guidance, and real-world training in one platform....
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
@@ -50,21 +47,20 @@ const ServiceList = () => {
               <div className="single-service">
                 <div className="icon flex-shrink-0">
                   <i
-                    className="bi bi-collection-play"
+                    className="bi bi-shield-lock"
                     style={{ color: "#15a04a" }}
                   ></i>
                 </div>
                 <div>
                   <h4 className="title">
                     <Link to="/services" className="stretched-link">
-                      Entertainment Content
+                      Penetration Testing
                     </Link>
                   </h4>
                   <p className="description">
-                    Our Entertainment content can keep the consumer engaged for
-                    hours if that’s what one is interested in. We have an
-                    impressive array of Content on Movies, Fashion, on Demand
-                    Videos and many more...
+                    Our penetration testing service helps organizations proactively
+                    detect, analyze, and remediate security flaws in their systems, 
+                    networks, and applications....
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
@@ -81,21 +77,19 @@ const ServiceList = () => {
               <div className="single-service">
                 <div className="icon flex-shrink-0">
                   <i
-                    className="bi bi-controller"
+                    className="bi bi-exclamation-triangle"
                     style={{ color: "#f5cf13" }}
                   ></i>
                 </div>
                 <div>
                   <h4 className="title">
                     <Link to="/services" className="stretched-link">
-                      Games{" "}
+                      Risk assessment{" "}
                     </Link>
                   </h4>
                   <p className="description">
-                    Get access to a bunch of games ranging from Action,
-                    Adventure, Arcade, Board, Cards, Casino ... and many to play
-                    on your device. If obvious choice for people whose idea of
-                    entertainment involves gaming as one...
+                    Comprehensive risk assessments to identify vulnerabilities, 
+                    assess impact, and guide informed security decisions....
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
@@ -112,21 +106,19 @@ const ServiceList = () => {
               <div className="single-service">
                 <div className="icon flex-shrink-0">
                   <i
-                    className="bi bi-universal-access-circle"
+                    className="bi bi-clipboard-check"
                     style={{ color: "#1335f5" }}
                   ></i>
                 </div>
                 <div>
                   <h4 className="title">
                     <Link to="/services" className="stretched-link">
-                      Sports{" "}
+                      Security Audits{" "}
                     </Link>
                   </h4>
                   <p className="description">
-                    Learning a sport is fun and challenging... sports like
-                    football, cricket, Tennis, Badminton, Rugby, volleyball and
-                    many more as such has tutoring videos talks about the
-                    history of the game, rules, knack to learn...{" "}
+                    Our security audit service evaluates your infrastructure, 
+                    policies, and controls to detect gaps and strengthen your overall security posture....{" "}
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
